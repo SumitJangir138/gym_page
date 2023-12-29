@@ -1,0 +1,132 @@
+body {
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('3.jpg');
+
+
+}
+
+.left {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    left: 78px;
+    top: 30px;
+    font-size: 26px;
+    text-align: center;
+}
+.left div{
+    color: yellow;
+    line-height: 17px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    /* border: 2px solid rgb(222, 148, 148); */
+    width: 43%;
+    margin: 14px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    top: 24px;
+    display: inline-block;
+    /* border: 2px solid rgb(222, 36, 36); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #73ddff;
+}
+
+.btn {
+    font-family: 'Baloo Paaji 2', cursive;
+    margin: 2px 9px;
+    padding: 0px 8px;
+    font-size: 15px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background-color: rgb(78, 69, 69);
+}
+
+.btn div {
+    padding: 2px 8px;
+}
+
+.container {
+    /* background-color: transparent; */
+    border: 3px solid;
+    display: block;
+    width: 33%;
+    margin: 118px 136px;
+    padding: 53px;
+    border-radius: 11px;
+}
+
+.container h2 {
+    /* color: rgb(77, 74, 74);  */
+    text-align: center;
+    height: 42px;
+    
+}
+
+.form-group input {
+    font-family: 'Baloo Paaji 2', cursive;
+    display: block;
+    text-align: center;
+    width: 367px;
+    border-radius: 7px;
+    padding: 0px 18px;
+    margin: 6px auto;
+    font-size: 20px;
+  
+}
+
+.container button {
+    font-family: 'Baloo Paaji 2', cursive;
+    width: 77px;
+    margin: 5px;
+    padding: 3px 7px;
+
+}
+
+.btn2 {
+    text-align: center;
+}
+
+.heading {
+    /* border: 2px solid red; */
+    border-radius: 71px;
+    background-color: black;
+}
